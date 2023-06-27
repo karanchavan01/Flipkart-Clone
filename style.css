@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 56px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-logo{
+    height: 56px;
+    width: 137px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav-logo .in-nav-logo{
+    height: 56px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.in-nav-logo img{
+    height: 20.11px;
+    width: 75px;
+}
+
+.in-nav-logo a{
+    display: flex;
+    height: 15.4px;
+    width: 75px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.in-nav-logo a:hover{
+    text-decoration: underline;
+}
+.in-nav-logo a span{
+    color: #ffe500;
+}
+.in-nav-logo a img{
+    height: 10px;
+    width: 10px;
+}
+
+.navbar .search-bar{
+    width: 304px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input{
+    height: 36px;
+    width: 262px;
+    padding: 0px 16px;
+}
+
+.search-bar .search-icon{
+    background-color: white;
+    height: 36px;
+    width: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #2874f0;
+}
+
+.nav-login{
+    height: 56px;
+    width: 120px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-login a{
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: #2874f0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 40px;
+    background-color: white;
+}
+
+ .navbar .seller a{
+    height: 56px;
+    width: 125px;
+    margin: 0px 40px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar .more{
+    height: 56px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar .more span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar .cart{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-second{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-second .images{
+    height: 130px;
+    width: 94px;
+    margin-right: 25px;
+    padding: 10px 20px;
+}
+
+.nav-second .images a{
+    height: 107px;
+    width: 64px;
+    text-decoration: none;
+}
+
+.nav-second .images a img{
+    height: 64px;
+    width: 100%;
+}
+
+.nav-second .images a div{
+    height: 20px;
+    width: 64px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.nav-second .images a div:hover{
+    color: #2874f0;
+}
+
+.main-container{
+    background-color: #d6d7da;
+}
+
+.container{
+    height: 350px;
+    width: 100%;
+    padding: 8px;
+    background-color: #d6d7da;
+}
+
+.container .carousel-cell img{
+    height: 330px;
+    width: 100%;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d6d7da
+}
+
+.container1 .box{
+    height: 275px;
+    width: 23%;
+    background-color: white;
+}
+
+.container1 .box:hover{
+    transform: scale(0.9);
+}
+
+.container1 .box1 h2{
+    display: block;
+    text-align: center;
+    margin: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.container1 .box1 div{
+    height: 35px;
+    width: 90px;
+    background-color: #2874f0;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 .box1 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.container1 .box2 .img img{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.container1 .box2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.para{
+    padding: 20px;
+}
+
+.para h1,h2,h3,p,li{
+    color: #878787;
+}
+
+.para ul li{
+    list-style: none;
+}
+
+.foot{
+    height: 360px;
+    width: 100%;
+    background-color: #172337;
+}
+
+.foot .inner-foot{
+    padding: 40px 80px;
+    display: flex;
+    border-bottom: 1px solid #454d5e;
+}
+
+.foot .inner-foot .in-div{
+    height: 240px;
+    width: 160px;
+    display: block;
+}
+
+.foot .inner-foot .in-div a{
+    line-height: 2;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+.foot .inner-foot .in-div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.foot .inner-foot .mail-us{
+    padding: 10px 40px;
+    border-left: 1px solid #454d5e;
+
+}
+.foot .inner-foot .mail-us div{
+    color: #878787;
+}
+
+.foot .inner-foot .mail-us p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.foot .in-foot{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
